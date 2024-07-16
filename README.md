@@ -1,5 +1,5 @@
 ### Steps to run
-edit: `EDITOR=nano rails credentials:edit` and add jwt key: `jwt_secret_key: your_secret_key_here`
+cd in backend folder and edit: `EDITOR=nano rails credentials:edit` and add jwt key: ```jwt_secret_key: your_secret_key_here```
 create `.env` file in root of rails backend folder and add to file your COINGATE_API_KEY and COINGATE_API_URL  or you can use mine: 
 ```
 COINGATE_API_KEY=3zCYy1xQ-dCW9qLcqcxDnsFAdpKg7sanuykixjYG
