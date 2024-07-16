@@ -13,7 +13,6 @@ Headers: Authorization: Bearer <token>
 - **Headers:** `Authorization: Bearer <token>`
 - **Body:**
   ```json
-  Body:
   {
     order: {
       price_amount: "123.0",
