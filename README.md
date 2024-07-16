@@ -5,6 +5,7 @@ create `.env` file in root of rails backend folder and add to file your COINGATE
 COINGATE_API_KEY=3zCYy1xQ-dCW9qLcqcxDnsFAdpKg7sanuykixjYG
 COINGATE_API_URL=https://api-sandbox.coingate.com/v2/orders
 ```
+create mysql database and add your configuration to database.yml then run `rails db:create`
 run rails on port 3001: `rails s -p 3001`
 
 cd in frontend folder and `npm install` and then `npm run dev`
